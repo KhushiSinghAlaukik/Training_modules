@@ -1,0 +1,1 @@
+Math.pow(digit, 3);
