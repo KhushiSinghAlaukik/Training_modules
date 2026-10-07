@@ -23,5 +23,6 @@ public class MinMarks {
         }
         int min = minMarks(marks[0], marks[1], marks[2], marks[3]);
         System.out.println("Minimum Marks: " + min);
+        sc.close();
     }
 }

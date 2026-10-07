@@ -35,5 +35,6 @@ public class StudentM {
         } else {
             System.out.println("Student passed.");
         }
+        sc.close();
     }
 }

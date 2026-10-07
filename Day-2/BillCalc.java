@@ -17,5 +17,6 @@ public class BillCalc {
         }
         int total = units*rate;
         System.out.println("The bill ammount is: " + total+ " Rs." );
+        sc.close();
     }
 }

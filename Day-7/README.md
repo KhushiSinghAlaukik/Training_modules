@@ -10,3 +10,7 @@ Encapsulation
 • Getters
 • Setters
 • Data hiding
+
+# Tasks completed
+- Bank account created using encapsulation
+- Secure employee class created 

@@ -32,5 +32,6 @@ public class StudentM {
         System.out.println("Total Marks: " + total);
         System.out.println("Percentage: " + percent + "%");
         System.out.println("Grade: " + grade);
+        sc.close();
     }
 }

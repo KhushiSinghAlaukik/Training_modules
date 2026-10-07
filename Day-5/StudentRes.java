@@ -41,5 +41,6 @@ import java.util.Scanner;
             }
             System.out.println("Name: " + name[i] + ", Marks: " + marks[i] + ", Grade: " + grade);
         }
+        sc.close();
     }
 }

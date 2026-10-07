@@ -24,5 +24,6 @@ public class Sorting {
         for (int mark : marks) {
             System.out.print(mark + " ");
         }
+        sc.close();
     }   
 }
