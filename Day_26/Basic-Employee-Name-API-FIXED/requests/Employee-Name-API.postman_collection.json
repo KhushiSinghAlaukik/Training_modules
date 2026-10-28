@@ -1,0 +1,124 @@
+{
+  "info": {
+    "_postman_id": "9c8b24c1-0c5d-4f43-b2e5-employee-basic-api",
+    "name": "Basic Employee Name API",
+    "description": "Start the local Spring Boot app before sending these requests.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET - All employee names",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/employees",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "employees"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST - Add name",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "Khushi"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/employees",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "employees"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PUT - Replace name 1",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "Aman Singh"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/employees/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "employees",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "PATCH - Change name 2",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "Priya Sharma"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/employees/2",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "employees",
+            "2"
+          ]
+        }
+      }
+    },
+    {
+      "name": "DELETE - Remove employee 2",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "{{baseUrl}}/employees/2",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "employees",
+            "2"
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    }
+  ]
+}
