@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8ae70a2-34c5-48b8-9195-b944ed8985c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/src/main/java/com/login/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/src/main/java/com/login/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day27/LoginServlet/src/main/webapp/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3LdHJftAZ5bhWLtlVeaaGLYvs0A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/rs363/OneDrive/Desktop/JavaDocs/Day29"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8ae70a2-34c5-48b8-9195-b944ed8985c3" name="Changes" comment="" />
+      <created>1793776953751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793776953751</updated>
+    </task>
+    <servers />
+  </component>
+</project>
